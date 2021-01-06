@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+         *, html {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+         }
+
+        body {
+            background-image: url(silhouette-of-man-standing-against-black-and-red-background-333850.jpg);
+            
+
+        }
+        #login_form {
+            background-color:whitesmoke;
+            width: 360px;
+            margin:auto;
+            margin-top: 50px; 
+            padding:40px 20px;
+        
+            
+            
+        }
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            color: black;
+        }
+        
+        input {
+            display: block;
+            width: 100%;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            background-color: #cccccc;
+            border-style: dashed;
+        
+            
+            
+        }
+        input[type="checkbox"]{
+            display:inline;
+            width: 15px;
+            
+            
+        }
+        input[type="submit"] {
+         background-color: black;
+         color: white;
+         padding: 10px;
+         border: none;
+
+        }
+
+        #social_login {
+            text-align: center;
+            margin: 10px 0;
+        }
+        #buttons {
+            width: 100%;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        #buttons a {
+            border: 1px solid; color: black;
+            padding: 10px 15px;
+            display: inline-block;
+            width: 48%;
+            text-decoration: none;
+            color: black;
+            text-decoration: bolder;
+            border-style: dashed;
+        }
+        #register {
+            text-align: center;
+            margin-top: 60px;
+        }
+
+    
+    </style>
+
+ </head>   
+<body>
+    <div id="login_form">
+        <h1>Login</h1>
+        <form action="" method="">
+        <input type="text" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="********">
+        <input type="checkbox" name="remember_me"> <span>Remember me</span>
+        <input type="submit" value="Login">
+
+       </form>
+       <div id="social_login">
+           <span>or login with</span>
+           <div id="buttons">
+            <a href="#">gmail</a>
+            <a href="#">yahoo</a>
+       </div>
+    
+    <div id="register">
+      <span>Not a member? <a href="#">Sign up now!</a></span>
+    </div>
+
+    </div>
+
+
+</body>
+</html>
